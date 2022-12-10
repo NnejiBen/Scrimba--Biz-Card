@@ -15,6 +15,7 @@ body {
     max-width: 317px;
     background: #1A1B21;
     margin: 44px auto;
+    border-radius: 10px;
 }
 
 /* INFO SECTION */

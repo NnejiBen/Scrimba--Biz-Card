@@ -1,0 +1,135 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #23252C; 
+}
+
+#root {
+    max-width: 317px;
+    background: #1A1B21;
+    margin: 44px auto;
+}
+
+/* INFO SECTION */
+
+.profile-picture {
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.info--name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.info--job-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12.8px;
+    text-align: center;
+    color: #F3BF99;
+    margin-top: 4px;
+}
+
+.info--website {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+    margin-top: 8px;
+}
+
+.button-container {
+    margin: 15px 35px;
+    margin-bottom: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button  {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.email-button {
+    display: flex;
+    cursor: pointer;
+}
+
+.linkedin-button {
+    background: #5093E2;
+     border: 1px solid #5093E2;
+     display: flex;
+     cursor: pointer;
+}
+
+.info--button-icon {
+    width: 18px;
+    margin-right: 8px
+}
+
+/* ABOUT & INTERESTS SECTIONS */
+
+.about, .interests {
+    margin: 0px 34px;
+}
+
+.h2-header {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-top: 20px;
+}
+
+.paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #DCDCDC;
+    margin-top: 5px;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    margin: 24px 0px;
+    width: 317px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--icons {
+    height: 25px;
+    width: 25px;
+    margin: 12px;
+}

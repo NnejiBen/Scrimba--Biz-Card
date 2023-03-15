@@ -1,5 +1,4 @@
 # scrimba-biz-card
- Scrimba solo project - digital business card
+Scrimba React solo project to build a digital business card.
 
-Link to published site on Netlify:
-https://thunderous-treacle-162ddb.netlify.app/
+Link to the published site: https://digital-biz-card-scr.netlify.app/
